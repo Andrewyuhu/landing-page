@@ -139,6 +139,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align:center;
     width:100%;
     gap:25px;
     padding:50px 50px;
@@ -152,4 +153,25 @@ button {
 
 .author {
     font-size:20px;
+}
+.footer {
+    background-color: black;
+    min-height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ad {
+    display:flex;
+    color:black;
+    min-height: 200px;
+    justify-content: center;
+    background:white;
+}
+
+.ad-box {
+    color:black;
+
 }
