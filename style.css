@@ -5,115 +5,43 @@
     padding:0;
     color:white;
 }
-.nav-bar {
-    font-size:24px;
+
+body {
     display:flex;
-    justify-content:space-between;
-    align-items: center;
+    flex-direction:column;
+}
+
+ul {
+    display:flex;
+    gap:25px;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
     background-color:black;
-    color:white;
-    padding:18px 135px;
-}
-
-.header {
-    font-weight: bold;
-}
-
-.nav-link {
-    padding-top:8px;
-    font-size:15px;
-    margin-left:25px;
-}
-
-.nav-link.first {
-    margin-left:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:15px 50px;
 }
 
 .logo {
-    height:50px;
-    padding-left:18px;
+    width:150px;
 }
 
-.content-container {
+.title {
+    font-size:24px;
+    font-weight: bolder;
+}
+.right-header,
+.left-header {
     display:flex;
-    justify-content: center;
-    background-color: black;
-    height:400px;
-}
-
-.big-content {
-    width:100%;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    
-}
-
-.content-one {
-    display:flex;
-    flex-direction: column;
-    width:400px;
-}
-
-.content-one.set-sail {
-    background-color: white;
-    border-style:none;
-    height:25px;
-    border-radius:12.5px;
-    flex:intial;
-    
-    width:70px;
-    color:black;   
-}
-.test {
-    width:300px;
-    color:black;
-}
-
-.content-one.title {
-    margin-bottom:20px;
-    font-weight:bold;
-    font-size:32px;
-}
-
-.content-one.content {
-    margin-bottom:20px;
-}
-
-.special-button {
-    display:flex;
-    justify-content:center;
     align-items: center;
-    background-color: white;
-    border-style:none;
-    height:35px;
-    border-radius:17.5px;
-    width:90px;
-    color:black;
-}
-
-span {
-    color:black;
-}
-
-.wano {
-    width:500px;
-}
-
-.mid-header {
-    padding-top:50px;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    height:100px;
-    font-size:30px;
-    font-family:bolder;
-}
-.headshot {
-    background:black;
-    border-color:red;
-    border-width: 5px;
-    color:black;
-    width:400px;
-    height:400px;
+    gap:25px;
 }
