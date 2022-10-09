@@ -202,3 +202,8 @@ button {
 }
 
 
+.sail-button {
+    border:white 2px solid;
+    background-color: black;
+    color:white;
+}
